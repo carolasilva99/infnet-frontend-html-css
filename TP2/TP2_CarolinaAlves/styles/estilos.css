@@ -1,0 +1,110 @@
+body {
+    background: #FFE7B9;
+    font-family: sans-serif
+}
+
+nav {
+    font-size: 0.8em;
+    margin-top: 2em;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: #918460;
+    font-size: 1.4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    color: #918460;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    /*text-align: center;*/
+}
+
+#img-principal {
+    width: 100%;
+}
+
+#cardapio {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1em;
+}
+
+.nome-item-cardapio {
+    font-weight: bolder;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+}
+
+td:nth-child(1) {
+    width: 10em;
+}
+
+footer {
+    font-size: 0.8em
+}
+
+#graos-organicos {
+    text-align: center;
+    background: #dcb0a1;
+    padding: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 10em;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contato {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}

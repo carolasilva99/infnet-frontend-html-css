@@ -1,0 +1,404 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5vw;
+}
+
+header {
+    background-color: #6470A6;
+    color: #fff;
+    background: url("img/camara-deputados.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #6470A6;
+}
+
+.logo {
+    width: 3vw;
+    height: 3vh;
+    margin-left: 10%;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 10px; 
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(69, 68, 68);
+}
+
+.ativo {
+    text-decoration: underline;
+}
+
+#principal {
+    padding: 32vh;
+    text-align: center; 
+}
+
+#principal h1 {
+    font-size: 5vw;
+    color: rgb(236, 232, 232);
+    font-family: 'Readex Pro', sans-serif;
+    text-shadow: 4px 4px #0515aa;
+}
+
+#principal p {
+    font-size: 1.5vw;
+    text-shadow: 2px 2px #0515aa;
+    font-weight: bolder;
+}
+
+button, #principal a {
+    background-color: #33364c;
+    color: white;
+    padding: 2%;
+    margin: 5%;	
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.2vw;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3e4053;
+}
+
+h2 {
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+h4 {
+    font-size: 1.4vw;
+    font-weight: bolder;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+#deputados {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-items: center;
+}
+
+i {
+    margin-right: 5%;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin-top: 5%;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#deputados button {
+    margin-top: 2%;
+    width: 50%;
+}
+
+.deputado {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+
+.deputado:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    text-align: left;
+}
+
+.deputado img {
+    width: 100%;
+    height: 50%;
+}
+
+.container h4 {
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.container h4:last-child {
+    margin-top: 0;
+    margin-bottom: 100%;
+}
+
+.container p {
+    margin-bottom: 5%;
+    
+}
+
+.container li {
+    list-style-type: circle;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.container i {
+    text-align: center;
+}
+
+.icones {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#partidos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-items: center;
+}
+
+#partidos button {
+    margin-top: 2%;
+    width: 50%;
+}
+
+.partido {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+
+.partido:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.partido img {
+    width: 100%;
+    height: 50%;
+}
+
+#noticias {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    place-items: center;
+}
+
+#noticias img {
+    width: 40%;
+    margin: 2%;
+    float: left;
+    transition: transform 1s ease-in-out;
+}
+
+#noticias img:hover {
+    transform: scale(1.05) ;
+}
+
+.noticia {
+    width: 54%;
+    float: left;
+}
+
+.noticia h3 {
+    margin-bottom: 4%;
+}
+
+.noticia button {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#eventos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    place-items: center;
+}
+
+.evento {
+    width: 54%;
+    /* float: left; */
+    text-align: left;
+}
+
+.evento h3 {
+    margin-bottom: 4%;
+}
+
+.evento button {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#busca-evento {
+    margin: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#busca-evento input {
+    vertical-align: middle;
+    margin: 1%;
+}
+
+#descricao-evento {
+    width: 30%;
+    text-align: left;
+}
+
+#data-evento {
+    width: 30%;
+}
+
+.data-hora {
+    width: 35%;
+    margin: 2%;
+    float: left;
+}
+
+.descricao {
+    width: 60%;
+    float: left;
+}
+
+#grid-eventos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.evento {
+    width: 46%;
+    height: 100%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+
+#btn-eventos-semana {
+    width: 60%;
+}
+
+#contato {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    place-items: center;
+}
+
+#contato form {
+    text-align: left;
+    width: 40%;
+    margin: 2%;
+    float: left;
+}
+
+
+#contato input, #contato textarea {
+    width: 100%;
+    display: inline-block;
+    padding: 2%;
+}
+
+#fale-conosco {
+    text-align: justify;
+    width: 56%;
+    float: left;
+}
+
+#fale-conosco p {
+    margin-top: 5%;
+}
+
+#contato button {
+    margin-top: 2%;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #33364c;
+    color:rgb(236, 232, 232);
+    padding: 4%;
+}
+
+footer p{
+    float: left;
+}
+
+footer a {
+    float: right;
+}

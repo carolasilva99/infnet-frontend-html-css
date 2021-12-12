@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Abertos</title>
+    <meta name="description"
+        content="Dados Abertos é um site que permite visualizar todos os dados da Câmara dos Deputados" />
+    <meta name="keywords" content="política, câmara dos deputados, deputados" />
+    <script src="https://kit.fontawesome.com/89fb8dd29a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,900&family=Readex+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="menu">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo do Dados Abertos" title="Logo do Dados Abertos">
+                </a>
+                <p>dados abertos</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#menu" class="ativo">INÍCIO</a></li>
+                    <li><a href="#deputados">DEPUTADOS</a></li>
+                    <li><a href="#partidos">PARTIDOS</a></li>
+                    <li><a href="#noticias">NOTÍCIAS</a></li>
+                    <li><a href="#eventos">EVENTOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="principal">
+            <h1>QUEM SÃO OS DEPUTADOS</h1>
+            <p>Conheça os deputados, seus partidos e legislaturas.</p>
+            <form action="#deputados">
+                <button>DEPUTADOS</button>
+            </form>
+        </section>
+    </header>
+    <main>
+        <section id="deputados">
+            <h2>DEPUTADOS</h2>
+            <h3>Consulte aqui os Deputados da Legislatura atual:</h3>
+            <input type="text" name="nome-deputado" id="nome-deputado" placeholder="Nome do Deputado" />
+            <button><i class="fas fa-search"></i>Buscar</button>
+            <div class="grid-deputados">
+                <div class="deputado">
+                    <img src="img/deputado-1.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>Fulano de Tal</b></h4>
+                        <h4><b>(PL-BA)</b></h4>
+                        <p>Detalhes:</p>
+                        <ul>
+                            <li>Legislaturas em que exerceu mandato: <em>56</em></li>
+                            <li>Partidos pelos quais já foi deputado: <em>PL, PHS</em></li>
+                        </ul>
+                        <div class="icones">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="deputado">
+                    <img src="img/deputado-1.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>Fulano de Tal</b></h4>
+                        <h4><b>(PL-BA)</b></h4>
+                        <p>Detalhes:</p>
+                        <ul>
+                            <li>Legislaturas em que exerceu mandato: <em>56</em></li>
+                            <li>Partidos pelos quais já foi deputado: <em>PL, PHS</em></li>
+                        </ul>
+                        <div class="icones">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="deputado">
+                    <img src="img/deputado-1.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>Fulano de Tal</b></h4>
+                        <h4><b>(PL-BA)</b></h4>
+                        <p>Detalhes:</p>
+                        <ul>
+                            <li>Legislaturas em que exerceu mandato: <em>56</em></li>
+                            <li>Partidos pelos quais já foi deputado: <em>PL, PHS</em></li>
+                        </ul>
+                        <div class="icones">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="deputado">
+                    <img src="img/deputado-1.png" alt="Avatar">
+                    <div class="container">
+                        <h4><b>Fulano de Tal</b></h4>
+                        <h4><b>(PL-BA)</b></h4>
+                        <p>Detalhes:</p>
+                        <ul>
+                            <li>Legislaturas em que exerceu mandato: <em>56</em></li>
+                            <li>Partidos pelos quais já foi deputado: <em>PL, PHS</em></li>
+                        </ul>
+                        <div class="icones">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="partidos">
+            <h2>PARTIDOS</h2>
+            <h3>Consulte aqui os Partidos existentes:</h3>
+            <input type="text" name="nome-partido" id="nome-partido" placeholder="Nome do Partido" />
+            <button><i class="fas fa-search"></i>Buscar</button>
+            <div class="grid-partidos">
+                <div class="partido">
+                    <img src="img/partido.png" alt="Partido XPTO Logo" title="Partido XPTO">
+                    <div class="container">
+                        <h4><b>Partido XPTO</b></h4>
+                        <div class="icones">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="partido">
+                    <img src="img/partido.png" alt="Partido XPTO Logo" title="Partido XPTO">
+                    <div class="container">
+                        <h4><b>Partido XPTO</b></h4>
+                        <div class="icones">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="partido">
+                    <img src="img/partido.png" alt="Partido XPTO Logo" title="Partido XPTO">
+                    <div class="container">
+                        <h4><b>Partido XPTO</b></h4>
+                        <div class="icones">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="partido">
+                    <img src="img/partido.png" alt="Partido XPTO Logo" title="Partido XPTO">
+                    <div class="container">
+                        <h4><b>Partido XPTO</b></h4>
+                        <div class="icones">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="noticias">
+            <h2>NOTÍCIAS</h2>
+            <img src="img/noticia.png" alt="Imagem da Notícia" />
+            <div class="noticia">
+                <article>
+                    <h3>Comitiva da Câmara dos Deputados visita áreas queimadas no Pantanal</h3>
+                    <p>A Câmara dos Deputados visita, de hoje a domingo (20), localidades atingidas pelos incêndios
+                        florestais no Pantanal mato-grossense. O grupo de parlamentares irá se reunir com entidades,
+                        bombeiros, e gestores da região em busca de soluções para a grave emergência ambiental.</p>
+                    <p>Fonte: Agência Câmara de Notícias | 18/09/2020 - 16:01</p>
+                </article>
+                <button>VEJA MAIS NOTÍCIAS</button>
+            </div>
+        </section>
+        <section id="eventos">
+            <h2>EVENTOS</h2>
+            <h3>Consulte aqui os Eventos agendados:</h3>
+            <div id="busca-evento">
+                <input type="text" name="descricao-evento" id="descricao-evento" placeholder="Descrição do Evento" />
+                <input type="date" name="data-evento" id="data-evento" />
+                <button>BUSCAR</button>
+            </div>
+            <div class="grid-eventos">
+                <div class="evento">
+                    <div class="data-hora">
+                        <p><i class="far fa-calendar-alt"></i>22/09/2020</p>
+                        <p><i class="far fa-clock"></i>10:00</p>
+                    </div>
+                    <div class="descricao">
+                        <p>CÂMARA DOS DEPUTADOS</p>
+                        <p>A atual situação da ANCINE - Evento técnico</p>
+                        <p>Anexo II, Plenário 06</p>
+                    </div>
+                </div>
+                <div class="evento">
+                    <div class="data-hora">
+                        <p><i class="far fa-calendar-alt"></i>22/09/2020</p>
+                        <p><i class="far fa-clock"></i>10:00</p>
+                    </div>
+                    <div class="descricao">
+                        <p>CÂMARA DOS DEPUTADOS</p>
+                        <p>A atual situação da ANCINE - Evento técnico</p>
+                        <p>Anexo II, Plenário 06</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button id="btn-eventos-semana">EVENTOS DA SEMANA</button>
+        </section>
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <form>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required />
+                <input type="email" name="email" id="email" placeholder="E-mail" required/>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+                <button>ENVIAR</button>
+            </form>
+            <div id="fale-conosco">
+                <h3>Fale Conosco:</h3>
+                <p>Deixe-nos suas críticas, elogios e sugestões!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Suspendisse in est ante in nibh mauris cursus. Nibh nisl condimentum id venenatis a
+                    condimentum vitae sapien. Auctor elit sed vulputate mi sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Suspendisse in est ante in nibh mauris cursus. Nibh nisl condimentum id venenatis a
+                    condimentum vitae sapien. Auctor elit sed vulputate mi sit amet.</p>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Instituto Infnet - Assessment Interfaces Web</p>
+        <a href="#header"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+    
+</body>
+
+</html>
